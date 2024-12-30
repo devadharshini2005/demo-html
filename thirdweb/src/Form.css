@@ -12,7 +12,7 @@ legend {
 }
 
     body {
-        background-image: url("C:\Users\Devadharshini\Desktop\training react\react training\thirdweb\src\download.jpg"); /* Update to relative or URL path */
+        background-image: url("C:\Users\Devadharshini\Desktop\training react\demo-html\thirdweb\src\download.jpg"); /* Update to relative or URL path */
         margin: 0; /* Removes default margins */
         height: 100vh; /* Full viewport height */
         display: flex; /* Flexbox for centering */
