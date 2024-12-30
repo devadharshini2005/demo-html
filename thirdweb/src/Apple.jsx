@@ -1,13 +1,16 @@
-import {Component} from "react";
+import {useState} from "react";
 
-class Apple extends Component{
-    render(){
+function Apple(props){
+    let [Name,SetName]=useState(props.name);
+    
         return(
         
             <h1>
-                HI This is training</h1>
+            <input type="text" value={Name} onChange={(event)=>SetName(event.target.value)}/>
+            <br/>
+                HI This is {Name}</h1>
                 
         )
     }
-}
+
 export default Apple;
