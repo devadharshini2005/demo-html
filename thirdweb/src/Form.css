@@ -11,14 +11,14 @@ legend {
     margin-bottom: 12px; 
 }
 
-    body {
-        background-image: url("C:\Users\Devadharshini\Desktop\training react\demo-html\thirdweb\src\download.jpg"); /* Update to relative or URL path */
-        margin: 0; /* Removes default margins */
-        height: 100vh; /* Full viewport height */
-        display: flex; /* Flexbox for centering */
+    /*body {
+        background-image: url("C:\Users\Devadharshini\Desktop\training react\demo-html\thirdweb\src\download.jpg"); 
+        margin: 0;
+        height: 100vh; 
+        display: flex; 
         justify-content: center;
         align-items: center;
-    }
+    }*/
 
 
 .container {

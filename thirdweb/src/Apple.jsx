@@ -1,8 +1,17 @@
-import {useState} from "react";
+import {useState,useEffect,useRef} from "react";
 
 function Apple(props){
     let [Name,SetName]=useState(props.name);
-    
+ 
+   let ccc=useRef(0);
+    useEffect(()=>{
+        
+        console.log(ccc.current++);
+         //code cleanup
+        return(()=>{
+            console.log("it may or may not be give there is no problem");
+        })
+    },[Name]);
         return(
         
             <h1>

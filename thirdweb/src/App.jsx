@@ -1,4 +1,4 @@
-import Aboutus from './Aboutus.jsx';
+/*import Aboutus from './Aboutus.jsx';
 import './App.css';
 import Home from './Home.jsx';
 import Contactus from './Contactus.jsx';
@@ -43,4 +43,4 @@ function App(){
     )
 
 }
-export default App;
+export default App;*/

@@ -10,10 +10,12 @@ function Deva(){
 
 <State numb={5}/>
   <Apple name="deva"/>
-  <Form/>
+
   <Class/>
   </>
   
   );
 }
 export default Deva;
+
+
