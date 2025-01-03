@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import Hen from './Hen.jsx'
+import Deva from './Deva.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Hen name="water" />
+    <Deva />
   </StrictMode>,
 )
