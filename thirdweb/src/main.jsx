@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import Deva from './Deva.jsx'
+import Media from './Media.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Deva />
+    <Media />
   </StrictMode>,
 )
